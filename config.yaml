@@ -23,6 +23,34 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+
+
+  - id: wordpressapo-com # unique identifier
+    name: Wordpress APO
+    description: 'Wordpress APO' # default=empty
+    url: 'https://wordpressapo.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
+  - id: sergiodemo-com # unique identifier
+    name: Sergio Demo
+    description: 'Sergio Demo' # default=empty
+    url: 'https://sergiodemo.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
+  - id: sergioforse-com # unique identifier
+    name: Sergio for SE
+    description: 'Sergio for SE' # default=empty
+    url: 'https://sergioforse.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
     
   - id: vnc-charles-sergiozygmunt-com # unique identifier
     name: Charles VNC
